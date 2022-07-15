@@ -1,0 +1,113 @@
+.about-container {
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.banner {
+    background: url('../../images/abt-img.jpg');
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.b-text {
+    margin-left: 120px;
+    height: 30px;
+    width: 100%;
+}
+
+.title-text {
+    color: #fff;
+    margin-left: 120px;
+    height: 50px;
+}
+
+.welcome-container {
+    margin: 80px 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-container h5 {
+    font-weight: 700;
+    color: #021d3a;
+
+}
+
+.welcome-container hr {
+    background: crimson;
+    height: 2px;
+    width: 4%;
+}
+
+.welcome-container h1 {    
+    color: #021d3a;
+    font-weight: 700;
+    width: 40%;
+    font-size: 60px;
+}
+
+.welcome-container p {
+    color: #021d3a;
+    width: 50%;
+    margin-top: 30px;
+    line-height: 2rem;
+}
+
+.welcome-content {
+    width: 80%;
+    justify-content: center;
+}
+
+.welcome-content img {
+    width: 40%;
+    
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    color: #fff;
+    background: url('../../images/pattern.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.figure {
+    font-weight: 700;
+    color: gray;
+    font-size: 50px;
+}
+
+.info-content,
+.info-content-1 {
+    margin: 50px 70px;
+}
+
+.info-content h3,
+.info-content-1 h3 {
+    margin-top: 10px;
+
+}
+
+.info-content p {
+    line-height: 2rem;
+    width: 80%;
+}
+
+.info-content-1 p {
+    line-height: 2rem;
+    width: 100%;
+}

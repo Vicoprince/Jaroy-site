@@ -1,0 +1,41 @@
+.slider-container {
+    background: #000000;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.slider-container h3 {
+    color: #fff;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.slider-container hr {
+    background: #fff;
+    height: 5px;
+    width: 4%;
+    margin-left: 60px;
+}
+
+.slider-container h2 {
+    color: #fff;
+    margin-left:  60px;
+}
+
+.slide-wrapper {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.slide-wrapper img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+    width: 30%;
+    border-radius: 50%;
+}
+
