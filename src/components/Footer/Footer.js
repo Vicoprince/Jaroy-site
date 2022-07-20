@@ -1,9 +1,13 @@
 import React from 'react';
 import './Footer.css';
 import "bootstrap/dist/css/bootstrap.css";
-// import 'react-router-dom';
 import {Link} from 'react-router-dom';
 import { IoArrowForward, IoArrowBack } from "react-icons/io5";
+import { ImFacebook } from "react-icons/im";
+import {FaLinkedinIn } from "react-icons/fa";
+import { BsWhatsapp } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+
 
 const Footer = () => {
   return (
@@ -31,22 +35,22 @@ const Footer = () => {
                   <ul class="mt-20">
                     <li>
                       <Link to="https://facebook.com/jaroyinvestments/">
-                        <i class="fa fa-facebook-f"></i>
+                        <ImFacebook />
                       </Link>
                     </li>
                     <li>
                       <Link to="https://linkedin.com/company/jaroy-investments-limited">
-                        <i class="fa fa-linkedin"></i>
+                        <FaLinkedinIn />
                       </Link>
                     </li>
                     <li>
-                      <Link to="https://wa.me/2349075220691?text=I'm%20directed%20from%20your%20website">
-                        <i class="fa fa-whatsapp"></i>
+                      <Link to="https://wa.me/2348067399860?text=I'm%20directed%20from%20your%20website">
+                        <BsWhatsapp />
                       </Link>
                     </li>
                     <li>
                       <Link to="#">
-                        <i class="fa fa-instagram"></i>
+                        <BsInstagram />
                       </Link>
                     </li>
                   </ul>
@@ -148,7 +152,8 @@ const Footer = () => {
                       </div>
                       <div class="cont">
                         <p>
-                          +2348067399860 <br /> +2349075220691
+                          +2348067399860 <br /> +2348128999857 <br />{" "}
+                          +2348060060642
                         </p>
                       </div>
                     </li>
@@ -175,7 +180,7 @@ const Footer = () => {
                     {" "}
                     <p>
                       {" "}
-                      &nbsp;&nbsp;&nbsp; Jaroy ICT Team | &copy; 2020. | All
+                      &nbsp;&nbsp;&nbsp; Jaroy ICT Team | &copy; 2022. | All
                       Rights Reserved.
                     </p>
                   </center>

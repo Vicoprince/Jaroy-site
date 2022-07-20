@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import { SliderData } from '../data/SliderData';
 import { CourseData } from "../data/CourseData";
 import Testimonial from '../components/Testimonial';
+import Partners from '../components/partners/Partners';
 
 const Home = () => {
   return (
@@ -29,6 +30,16 @@ const Home = () => {
           <div className="card3">
             <img src="../image/ctg-3.png" />
             <h4>Digital Marketing</h4>
+          </div>
+
+          <div className="card4">
+            <img src="../image/ctg-3.png" />
+            <h4>Cyber Security</h4>
+          </div>
+
+          <div className="card5">
+            <img src="../image/ctg-3.png" />
+            <h4>IELTS</h4>
           </div>
         </div>
       </div>
@@ -123,17 +134,7 @@ const Home = () => {
         </div>
       </div>
       <Testimonial />
-      <div className="partner-card">
-            <img className="p-image" src="../image/p-1.png"/>
-            <img className="p-image" src="../image/p-2.png"/>
-            <img className="p-image" src="../image/p-3.png"/>
-            <img className="p-image" src="../image/p-4.png"/>
-            <img className="p-image" src="../image/p-5.png"/>
-            <img className="p-image" src="../image/p-6.png"/>
-            <img className="p-image" src="../image/p-7.png"/>
-            <img className="p-image" src="../image/p-8.png"/>
-            <img className="p-image" src="../image/p-9.png"/>
-      </div>     
+      <Partners />
     </>
   );}
 

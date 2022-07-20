@@ -24,7 +24,7 @@ export const SliderData = [
     alt: "bg",
   },
   {
-    title: "Follow the Right Link to Attain your Highest Potential",
+    title: "Follow the Right Link to Achieve your Highest Potential",
     subText:
       "If you are considering taking Information Technology courses, then scroll through the programs below to find the program that will help you meet your professional goals and advance your career!",
     path: "/",

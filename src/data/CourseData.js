@@ -3,6 +3,7 @@ import PictureTwo from "../images/software-dev.jpg";
 import PictureThree from "../images/digital-marketing.jpg";
 import PictureFour from "../images/web-development.jpg";
 import PictureFive from "../images/digital-literacy.jpg";
+import PictureSix from "../images/graphics-design.jpg";
 
 export const CourseData = [
   {
@@ -25,7 +26,7 @@ export const CourseData = [
   },
   {
     title: "Web Development",
-    subText: "(20 reviews)",
+    subText: "(120 reviews)",
     path: "#",
     image: PictureFour,
   },
@@ -34,5 +35,11 @@ export const CourseData = [
     subText: "(150 reviews)",
     path: "#",
     image: PictureFive,
+  },
+  {
+    title: "Graphics Design ",
+    subText: "(50 reviews)",
+    path: "#",
+    image: PictureSix,
   },
 ];

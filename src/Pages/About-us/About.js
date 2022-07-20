@@ -3,6 +3,7 @@ import './About.css';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import { Link } from 'react-router-dom';
 import Testimonial from '../../components/Testimonial';
+import Partners from '../../components/partners/Partners';
 
 const About = () => {
   return (
@@ -14,6 +15,7 @@ const About = () => {
             <Breadcrumb className="b-text">
               <Breadcrumb.Item className="text">
                 <Link to="/">
+                
                   <h5>Home</h5>
                 </Link>
               </Breadcrumb.Item>
@@ -41,7 +43,7 @@ const About = () => {
               Development Centre, Electronic Testing Centre, Talent Discovery
               Centre.
             </p>
-            <img src="../image/a-2.jpg" />
+            <img src="../image/a-2.jpg" alt=""/>
           </div>
         </div>
       </div>
@@ -90,18 +92,7 @@ const About = () => {
       </div>
 
       <Testimonial />
-
-      <div className="partner-card">
-        <img className="p-image" src="../image/p-1.png" />
-        <img className="p-image" src="../image/p-2.png" />
-        <img className="p-image" src="../image/p-3.png" />
-        <img className="p-image" src="../image/p-4.png" />
-        <img className="p-image" src="../image/p-5.png" />
-        <img className="p-image" src="../image/p-6.png" />
-        <img className="p-image" src="../image/p-7.png" />
-        <img className="p-image" src="../image/p-8.png" />
-        <img className="p-image" src="../image/p-9.png" />
-      </div>
+      <Partners />
     </>
   );
 }

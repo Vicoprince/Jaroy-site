@@ -63,21 +63,49 @@
     border-radius: 15px;
 }
 
+.card4 {
+    background: rgb(33, 212, 215);
+    width: 100%;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.card5 {
+    background: rgb(215, 33, 75);
+    width: 100%;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
 .card1 img,
 .card2 img,
-.card3 img {
+.card3 img,
+.card4 img,
+.card5 img {
     margin: 20px;
 }
 
 .card1 h4,
 .card2 h4,
-.card3 h4 {
+.card3 h4,
+.card4 h4,
+.card5 h4 {
     margin: 20px;
 }
 
 .card1:hover,
 .card2:hover,
-.card3:hover {
+.card3:hover,
+.card4:hover,
+.card5:hover {
     transform: scale(1.05);
     transition: 0.3s all ease-in-out;
 }
@@ -259,26 +287,6 @@
 }
 
 .c-img:hover {
-    transform: scale(1.05);
-    transition: 0.3s all ease-in-out;
-}
-
-.partner-card {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.p-image {
-    width: 10%;
-    padding: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
-}
-
-.p-image:hover {
     transform: scale(1.05);
     transition: 0.3s all ease-in-out;
 }
