@@ -9,6 +9,9 @@ import Contact from './Pages/Contact-us/Contact';
 import Excel_powerpoint from './Pages/short-courses/Excel-powerpoint/Excel_powerpoint';
 import IELTS from "./Pages/short-courses/IELTS/IELTS";
 import Graphics from './Pages/Courses/Graphics/Graphics';
+import Digital_Literacy from './Pages/Courses/Digital_Literacy/Digital_Literacy';
+import Digital_marketing from './Pages/Courses/Digital_marketing/Digital_marketing';
+import Comptia from './Pages/Courses/COMPTIA_A+/Comptia';
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
           <Route path="/excel-powerpoint" element={<Excel_powerpoint />} />
           <Route path="/IELTS" element={<IELTS />} />
           <Route path="/Graphics-design" element={<Graphics />} />
+          <Route path="/Digital-literacy" element={<Digital_Literacy />} />
+          <Route path="/Digital-marketing" element={<Digital_marketing />} />
+          <Route path="/COMPTIA" element={<Comptia />} />
         </Routes>
         <Footer />
       </Router>
