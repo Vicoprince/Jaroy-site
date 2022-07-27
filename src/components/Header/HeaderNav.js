@@ -21,7 +21,6 @@ const HeaderNav = () => {
               <NavDropdown.Item href="#">CISCO</NavDropdown.Item>
               <NavDropdown.Item href="/COMPTIA">COMPTIA A+</NavDropdown.Item>
               <NavDropdown.Item href="/Network-eng">COMPTIA N+</NavDropdown.Item>
-              <NavDropdown.Item href="#">C#</NavDropdown.Item>
               <NavDropdown.Item href="#">CYBER SECURITY</NavDropdown.Item>
               <NavDropdown.Item href="/Digital-literacy">
                 DIGITAL LITERACY
@@ -35,7 +34,7 @@ const HeaderNav = () => {
               <NavDropdown.Item href="#">JAVA DEVELOPMENT</NavDropdown.Item>
               <NavDropdown.Item href="#">ORACLE DATABASE</NavDropdown.Item>
               <NavDropdown.Item href="#">REVIT & AUTOCAD</NavDropdown.Item>
-              <NavDropdown.Item href="#">SOFTWARE DEVELOPMENT</NavDropdown.Item>
+              <NavDropdown.Item href="/Software-development">SOFTWARE DEVELOPMENT</NavDropdown.Item>
               <NavDropdown.Item href="#">WEB DEVELOPMENT</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="SHORT COURSES">
