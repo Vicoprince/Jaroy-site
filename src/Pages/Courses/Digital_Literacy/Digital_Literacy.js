@@ -72,7 +72,7 @@ const Digital_Literacy = () => {
               governments all over the world.
             </div>
             <div className="g-tabImage">
-              <img src="../image/graphics-image.jpg" alt="unsplash-graphics" />
+              <img src="../image/do-more.jpg" alt="unsplash-graphics" />
             </div>
           </div>
 
@@ -149,7 +149,7 @@ const Digital_Literacy = () => {
         <TabPanel value={value} index={1}>
           <div className="g-tabContent">
             <div className="g-tabImage">
-              <img src="../image/g-courseContent.jpg" alt="unsplash-graphics" />
+              <img src="../image/microsoft.jpg" alt="unsplash-graphics" />
             </div>
             <div className="g-tabText">
               The courses that are covered in this program include:
@@ -176,7 +176,7 @@ const Digital_Literacy = () => {
               program.
             </div>
             <div className="g-tabImage">
-              <img src="../image/g-prequisite.jpg" alt="unsplash-graphics" />
+              <img src="../image/live-work.jpg" alt="unsplash-graphics" />
             </div>
           </div>
         </TabPanel>
@@ -221,7 +221,7 @@ const Digital_Literacy = () => {
         <TabPanel value={value} index={5}>
           <div className="g-tabContent">
             <div className="g-tabImage">
-              <img src="../image/g-time.jpg" alt="unsplash-graphics" />
+              <img src="../image/course-fee.jpg" alt="unsplash-graphics" />
             </div>
             <div className="g-tabText">
               <h5>

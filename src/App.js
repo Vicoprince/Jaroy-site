@@ -12,6 +12,7 @@ import Graphics from './Pages/Courses/Graphics/Graphics';
 import Digital_Literacy from './Pages/Courses/Digital_Literacy/Digital_Literacy';
 import Digital_marketing from './Pages/Courses/Digital_marketing/Digital_marketing';
 import Comptia from './Pages/Courses/COMPTIA_A+/Comptia';
+import Network_plus from "./Pages/Courses/CompTIA_N+/Network_plus";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/Digital-literacy" element={<Digital_Literacy />} />
           <Route path="/Digital-marketing" element={<Digital_marketing />} />
           <Route path="/COMPTIA" element={<Comptia />} />
+          <Route path="/Network-eng" element={<Network_plus />} />
         </Routes>
         <Footer />
       </Router>

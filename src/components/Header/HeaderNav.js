@@ -20,6 +20,7 @@ const HeaderNav = () => {
               <NavDropdown.Item href="#">BUSINESS CLASS</NavDropdown.Item>
               <NavDropdown.Item href="#">CISCO</NavDropdown.Item>
               <NavDropdown.Item href="/COMPTIA">COMPTIA A+</NavDropdown.Item>
+              <NavDropdown.Item href="/Network-eng">COMPTIA N+</NavDropdown.Item>
               <NavDropdown.Item href="#">C#</NavDropdown.Item>
               <NavDropdown.Item href="#">CYBER SECURITY</NavDropdown.Item>
               <NavDropdown.Item href="/Digital-literacy">

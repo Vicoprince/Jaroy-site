@@ -185,7 +185,7 @@ const Digital_marketing = () => {
         <TabPanel value={value} index={5}>
           <div className="g-tabContent">
             <div className="g-tabImage">
-              <img src="../image/g-time.jpg" alt="unsplash-graphics" />
+              <img src="../image/course-fee.jpg" alt="unsplash-graphics" />
             </div>
             <div className="g-tabText">
               <h5>
