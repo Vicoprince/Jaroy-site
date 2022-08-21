@@ -22,6 +22,14 @@
     width: 100%;
 }
 
+.text {
+    width: 18%;
+}
+
+.text h5 {
+    color: rgb(0, 140, 255);
+}
+
 .title-text {
     color: #fff;
     margin-left: 120px;
@@ -107,4 +115,41 @@ textarea {
     margin: 0px 30px;
     text-align: center;
 
+}
+
+@media (max-width: 768px) {
+    .input-field {
+        display: block;
+    }
+
+    #location-details h3 {
+        font-size: 18px;
+    }
+    
+    #location-details p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 430px) {
+    .form-wrapper {
+        width: 80%;
+    }   
+
+    .details-section {
+        display: block;
+        width: 100%;
+    }
+
+    .details {
+        width: 100%;
+    }
+
+    #location-details h3 {
+        font-size: 20px;
+    }
+    
+    #location-details p {
+        font-size: 15px;
+    }
 }

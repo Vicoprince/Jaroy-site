@@ -1,3 +1,7 @@
+html,body{
+    overflow-x: hidden;
+}
+
 .top-text {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -5,11 +9,6 @@
     align-items: center;
     Justify-content: center;
     width: 100%;
-}
-
-.top-test h1 {
-    font-weight: 600;
-    font-size: 20px;
 }
 
 .info-card {
@@ -26,8 +25,6 @@
 .info-wrapper {
     display: flex;
     justify-content: space-around;
-
-
 }
 
 .card1 {
@@ -289,4 +286,188 @@
 .c-img:hover {
     transform: scale(1.05);
     transition: 0.3s all ease-in-out;
+}
+
+@media  (max-width: 768px) {
+    .info-card {
+        width: 100%;
+    }
+
+    .info-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5 {
+        display: block;
+        width: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card1 img,
+    .card2 img,
+    .card3 img,
+    .card4 img,
+    .card5 img {
+        display: block;
+        width: 30px;
+        text-align: center;
+    }
+
+    .card1 h4,
+    .card2 h4,
+    .card3 h4,
+    .card4 h4,
+    .card5 h4 {
+        display: flex;
+        width: 30%;
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 15px 10px;
+    }
+
+    .card1:hover,
+    .card2:hover,
+    .card3:hover,
+    .card4:hover,
+    .card5:hover {
+        transform: scale(1.05);
+        transition: 0.3s all ease-in-out;
+    }
+
+    .value-card {
+        width: 100%;
+    }
+
+    .value-card h3 {
+        font-size: 30px;
+        font-weight: 600;
+
+    }
+
+    .value-left h1 {
+        text-align: center;
+
+    }
+
+    .course-title {
+        display: none;
+    }
+}
+
+@media (max-width: 430px) {
+    .top-text {    
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .top-text h1 {
+        color: red;
+        text-align: center;
+    }
+
+    .imfo-card {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    .info-wrapper{
+        display: flex;
+        flex-wrap: wrap;      
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5 {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .card1 img,
+    .card2 img,
+    .card3 img,
+    .card4 img,
+    .card5 img {
+        margin-left: 45px;
+
+    }
+
+    .card1 h4,
+    .card3 h4,
+    .card4 h4,
+    .card5 h4 {
+        margin-left: 35px;
+
+    }
+
+    .card1 h4,
+    .card2 h4,
+    .card3 h4,
+    .card4 h4,
+    .card5 h4 {
+        font-size: 15px;
+    }
+
+    .card1:hover,
+    .card2:hover,
+    .card3:hover,
+    .card4:hover,
+    .card5:hover {
+        transform: scale(1.05);
+        transition: 0.3s all ease-in-out;
+    }
+
+    .value-card {
+        display: block;
+        justify-content: center;
+    }
+
+    .value-card h3 {
+        font-weight: 600;
+    }
+
+    .value-wrapper {
+        display: block;
+        margin-right: 10px;
+        left: 0;
+    }
+
+    .value-left {
+        width: 100%;
+    }
+
+    .value-left h1 {
+        text-align: left;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .value-left ul {
+        width: 100%;
+        text-align: justify;
+        list-style: none;
+    }
+
+    .value-right {
+        display: none;
+    }
+
+    .apply-card {
+        display: block;
+    }
+
+    .apply1 h1,
+    .apply2 h1 {
+        font-size: 24px;
+        font-weight: 600;
+    }
 }

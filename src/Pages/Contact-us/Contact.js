@@ -22,7 +22,9 @@ const Contact = () => {
                   <h5>Home</h5>
                 </Link>
               </Breadcrumb.Item>
-              <Breadcrumb.Item active>Contact us</Breadcrumb.Item>
+              <Breadcrumb.Item className="text" active>
+                <h5>Contact us</h5>
+              </Breadcrumb.Item>
             </Breadcrumb>
           </div>
         </div>
@@ -73,7 +75,7 @@ const Contact = () => {
       </div>
 
       <div className="details-section">
-        <div className="details">
+        <div className="details" id="location-details">
           <IoHome className="details-icon" />
           <h3>Where we are</h3>
           <p>

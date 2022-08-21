@@ -27,6 +27,10 @@
     width: 18%;
 }
 
+.text h5 {
+    color: rgb(0, 140, 255);
+}
+
 .ep-container {
     background: url('../../../images/pt1.jpg');
     background-repeat: no-repeat;
@@ -106,4 +110,17 @@
 .bottom-text {
     margin: 30px;
     text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .title-text {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .ep-content {
+        display: none;
+    }
+
+
 }

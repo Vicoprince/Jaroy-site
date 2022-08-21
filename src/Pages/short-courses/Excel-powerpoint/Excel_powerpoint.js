@@ -25,7 +25,9 @@ const Excel_powerpoint = () => {
                   <h5>Events</h5>
                 </Link>
               </Breadcrumb.Item>
-              <Breadcrumb.Item>Excel & powerpoint</Breadcrumb.Item>
+              <Breadcrumb.Item className="text">
+                <h5>Excel & powerpoint</h5>
+              </Breadcrumb.Item>
             </Breadcrumb>
           </div>
         </div>
@@ -78,7 +80,9 @@ const Excel_powerpoint = () => {
 
           <div className="bottom-text">
             <div>
-              <h3 className="time-sec-text">WHY THE NEED TO LEARN MICROSOFT POWERPOINT?</h3>
+              <h3 className="time-sec-text">
+                WHY THE NEED TO LEARN MICROSOFT POWERPOINT?
+              </h3>
               <p>
                 Microsoft PowerPoint is a powerful presentation software that
                 has changed the way people present ideas and information to an
@@ -99,7 +103,9 @@ const Excel_powerpoint = () => {
             </div>
 
             <div>
-              <h3 className="time-sec-text">WHY THE NEED TO LEARN MICROSOFT EXCEL?</h3>
+              <h3 className="time-sec-text">
+                WHY THE NEED TO LEARN MICROSOFT EXCEL?
+              </h3>
               <p>
                 Microsoft Excel gives businesses the tools they need to make the
                 most of their data. And when it comes to making the most of

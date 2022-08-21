@@ -26,7 +26,9 @@ const IELTS = () => {
                   <h5>Events</h5>
                 </Link>
               </Breadcrumb.Item>
-              <Breadcrumb.Item>IELTS TRAINING</Breadcrumb.Item>
+              <Breadcrumb.Item className="text">
+                <h5>IELTS TRAINING</h5>
+              </Breadcrumb.Item>
             </Breadcrumb>
           </div>
         </div>
@@ -82,7 +84,7 @@ const IELTS = () => {
           <div className="ielts-text-sec-content">
             <BsMap className="ielts-icon" />
             <span className="ielts-text-sec-text">Address</span>
-            <p>Salawu Olabode Avenue, Abeokuta, Ogun State</p>
+            <p>Salawu Olabode Avenue, Tekobo, Abeokuta, Ogun State</p>
           </div>
         </div>
       </div>

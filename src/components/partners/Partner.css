@@ -10,3 +10,17 @@
     margin:20px;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .partner-corner {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .partner-corner img {
+        height: 50px;
+        margin: 20px;
+    }
+}

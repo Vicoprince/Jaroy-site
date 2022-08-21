@@ -5,7 +5,7 @@ import { Nav, Navbar, NavbarBrand, NavDropdown } from "react-bootstrap";
 
 const HeaderNav = () => {
   return (
-    <div>
+    <div className="navbar-container">
       <Navbar bg="dark" variant="dark" sticky="top" expand="lg">
         <NavbarBrand>
           <img src="../image/logo-2.png" alt="" />
@@ -13,7 +13,7 @@ const HeaderNav = () => {
 
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Nav className="justify-content-end" style={{ width: "100%" }}>
+          <Nav className="justify-content-end" style={{ width: "100%" }} id="nav">
             <Nav.Link href="/">HOME</Nav.Link>
             <Nav.Link href="/About-us">ABOUT US</Nav.Link>
             <NavDropdown title="COURSES">

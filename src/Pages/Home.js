@@ -18,27 +18,27 @@ const Home = () => {
       <div className="info-card">
         <div className="info-wrapper">
           <div className="card1">
-            <img src="../image/ctg-1.png" />
+            <img src="../image/ctg-1.png" alt="Digital literacy" />
             <h4>Digital Literacy</h4>
           </div>
 
           <div className="card2">
-            <img src="../image/ctg-2.png" />
+            <img src="../image/ctg-2.png" alt="Web Development" />
             <h4>Web Development</h4>
           </div>
 
           <div className="card3">
-            <img src="../image/ctg-3.png" />
+            <img src="../image/ctg-3.png" alt="Digital Marketing" />
             <h4>Digital Marketing</h4>
           </div>
 
           <div className="card4">
-            <img src="../image/ctg-3.png" />
+            <img src="../image/ctg-3.png" alt="Cyber Security" />
             <h4>Cyber Security</h4>
           </div>
 
           <div className="card5">
-            <img src="../image/ctg-3.png" />
+            <img src="../image/ctg-3.png" alt="IELTS" />
             <h4>IELTS</h4>
           </div>
         </div>
@@ -83,7 +83,10 @@ const Home = () => {
           <button className="value-button">Learn More</button>
         </div>
         <div className="value-right">
-          <img src="../image/image2.jpg" />
+          <img
+            src="../image/image2.jpg"
+            alt="Part-time application"
+          />
         </div>
       </div>
 
@@ -127,7 +130,7 @@ const Home = () => {
                   <i class="fa fa-star"></i> {item.subText}{" "}
                 </p>
               </div>
-              <img src={item.image} className="c-img" />
+              <img src={item.image} className="c-img" alt="Course Images" />
             </div>
           ))}
           ;
