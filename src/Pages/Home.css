@@ -276,6 +276,10 @@ html,body{
     margin-left: 3rem;
 }
 
+.sub-text p i {
+    color: #ffc600;
+}
+
 
 .c-img {
     width: 100%;
@@ -427,8 +431,11 @@ html,body{
     }
 
     .value-card {
-        display: block;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .value-card h3 {

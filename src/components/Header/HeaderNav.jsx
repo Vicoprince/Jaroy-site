@@ -43,7 +43,6 @@ const HeaderNav = () => {
               </NavDropdown.Item>
               <NavDropdown.Item href="/IELTS">IELTS TRAINING</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#">OUR TEAM</Nav.Link>
             <Nav.Link href="/contact">CONTACT</Nav.Link>
           </Nav>
         </Navbar.Collapse>

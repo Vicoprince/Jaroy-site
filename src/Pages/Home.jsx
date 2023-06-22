@@ -33,12 +33,12 @@ const Home = () => {
           </div>
 
           <div className="card4">
-            <img src="../image/ctg-3.png" alt="Cyber Security" />
+            <img src="../image/cyber.png" alt="Cyber Security" />
             <h4>Cyber Security</h4>
           </div>
 
           <div className="card5">
-            <img src="../image/ctg-3.png" alt="IELTS" />
+            <img src="../image/ielts.png" alt="IELTS" />
             <h4>IELTS</h4>
           </div>
         </div>
